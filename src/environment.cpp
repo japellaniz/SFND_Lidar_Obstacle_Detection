@@ -182,7 +182,7 @@ int main (int argc, char** argv)
     //cityBlock(viewer);
     
     ProcessPointClouds<pcl::PointXYZI>* pointProcessorI = new ProcessPointClouds<pcl::PointXYZI>();
-    std::vector<boost::filesystem::path> stream = pointProcessorI->streamPcd("C:/Users/josea/SFND_Lidar_Obstacle_Detection/src/sensors/data/pcd/data_1");
+    std::vector<boost::filesystem::path> stream = pointProcessorI->streamPcd("D:/02_FORMACION/MOOCs/SFND_Udacity/SFND_Lidar_Obstacle_Detection/src/sensors/data/pcd/data_1/");
     auto streamIterator = stream.begin();
     pcl::PointCloud<pcl::PointXYZI>::Ptr inputCloudI;
     
